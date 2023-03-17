@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health care</title>
+    <link href="{{ url_for('static', path='/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="class">
+        <div class="class1">
+            <form action="/predict" method="post">
+            <div >
+                <p id="gen">Gender</p>
+                
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+            </div>
+            <div >
+                <p id="ag">Age</p>
+                <input type="number" name="Age" placeholder="23" id="age">
+            </div>
+            <div >
+                <p id="ht">hypertension</p>
+                <select name="hypertension" id="hypertension">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+            <div >
+                <p id="hd">heart disease</p>
+                <select name="heart" id="heart">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+            <div >
+                <p id="ma">Married</p>
+                <select name="married" id="married">
+                    <option value="yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+            <div >
+                <p id="wk">Work type</p>
+                <select name="work" id="work">
+                    <option value="Private">Private</option>
+                    <option value="Govt_Job">Govt_Job</option>
+                    <option value="Self employed">Self-employed</option>
+                    <option value="Children">Children</option>
+                    <option value="Never_Worked">Never_Worked</option>
+                </select>
+            </div>
+            <div >
+                <p id="re">Residence type</p>
+                <select name="res" id="res">
+                    <option value="rural">Rural</option>
+                    <option value="urban">Urban</option>
+                </select>
+            </div>
+            <div >
+                <p id="gl">Glucose level</p>
+                <input type="type" name="glu" placeholder="90.8" id="glu">
+            </div>
+            <div >
+                <p id="bi">BMI</p>
+                <input type="type" name="bmi" placeholder="30.1" id="bmi">
+            </div>
+            <div >
+                <p id="so">Smoking status</p>
+                <select name="som" id="som">
+                    <option value="Formerly Smoked">Formerly Smoked</option>
+                    <option value="Never Smoked">Never Smoked</option>
+                    <option value="Smokes">Smokes</option>
+                </select>
+            </div>
+        </div>
+        <div class="class2">
+            <h1 id="heading"><u><b>STROKE</b></u></h1>
+            <h3 id="para">A stroke is a medical emergency that occurs when the blood supply to the brain is disrupted, either by a blood clot blocking a blood vessel (ischemic stroke) or by a blood vessel rupturing (hemorrhagic stroke).</h3>
+            <h4 id="sym"><u>Stroke Symptoms:</u><br><br>
+
+                Sudden numbness or weakness of the face, arm, or leg, especially on one side of the body.<br>
+                Sudden confusion or trouble speaking<br>
+                Sudden trouble seeing in one or both eyes.</h4>
+                <h4 id="cau"><u>Stroke Causes:</u>
+                    <br><br>
+
+                    Ischemic Stroke<br>
+                    Hemorrhagic Stroke<br>
+                    Transient Ischemic Attack (TIA)
+                </h4>
+        </div>
+    </div>
+    <div id="submit">
+        <input type="submit" value="Submit" class="su">        
+
+    </div>
+        </form>
+</body>
+
+<br>
+<br>
+<h1> {{ prediction_message }}</h1>
+</html>

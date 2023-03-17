@@ -1,0 +1,226 @@
+
+body {
+    background-image: url('https://scitechdaily.com/images/Brain-Bleeding-Stroke-Hemorrhage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.class{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.class1{
+    margin-top: 100px;
+    height: 550px;
+    width: 400px;
+    background-color: white;
+    border-radius: 4%;
+    font-size: medium;
+    margin-left: 100px;
+}
+
+.class2{
+    margin-top: 70px;
+    height: 550px;
+    width: 400px;
+    background-color: white;
+    border-radius: 4%;
+}
+
+.su{
+    /* margin-top: 10px; */
+    margin-left: 740px;
+    height: 40px;
+    width: 80px;
+
+}
+
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+#para{
+    margin: 20px;
+}
+
+#sym{
+    margin: 20px;
+    display: list-item;
+}
+
+#cau{
+    margin: 20px;
+    display: list-item;
+}
+
+#gender{
+    height: 20px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 20px;
+}
+
+#gen{
+    height: 20px;
+    width: 100px;
+    float: left;
+}
+
+#ag{
+    height: 20px;
+    width: 100px;
+    float: left;
+
+}
+
+#age{
+    height: 20px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 20px;
+
+}
+
+#hypertension{
+    height: 20px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 20px;
+}
+
+#ht{
+    height: 20px;
+    width: 100px;
+    float: left;
+}
+
+#hd{
+    height: 20px;
+    width: 100px;
+    float: left;
+
+}
+
+#heart{
+    height: 20px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 20px;
+}
+
+#ma{
+    height: 20px;
+    width: 100px;
+    float: left;
+
+}
+
+#married{
+    height: 20px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 20px;
+}
+
+#wk{
+    height: 20px;
+    width: 100px;
+    float: left;
+}
+
+#work{
+    height: 20px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 20px;
+}
+
+#re{
+    height: 20px;
+    width: 100px;
+    float: left;
+}
+
+#res{
+    height: 20px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 20px;
+}
+
+#gl{
+    height: 20px;
+    width: 100px;
+    float: left;
+}
+
+#glu{
+    height: 20px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 20px;
+}
+
+#bi{
+    height: 20px;
+    width: 100px;
+    float: left;
+}
+
+#bmi{
+    height: 20px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 20px; 
+}
+
+#so{
+    height: 20px;
+    width: 100px;
+    float: left;
+}
+#som{
+    height: 20px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 20px; 
+}
+
+h1{
+    color:brown;
+    font-family: verdana;
+    font-size: 300%;
+  }
