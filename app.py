@@ -136,17 +136,4 @@ async def predict(request: Request,gender:str=Form(...),
     elif result == 0:
         return templates.TemplateResponse('index.html', context={'request': request, 'prediction_message': "No, you are not likely to have a stroke"})
 
-
-
-
-
-    
-
-
-    
-    
-
-    
-    
-    return Age
     
