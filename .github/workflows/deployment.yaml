@@ -9,7 +9,7 @@ env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: brainstroke-cluster    # Add your cluster name here.
   GKE_ZONE: asia-south1-b   # Add your cluster zone here.
-  DEPLOYMENT_NAME:brain-stroke-prediction version:1 # Add your deployment name here.
+  DEPLOYMENT_NAME: brain-stroke-prediction version:1 # Add your deployment name here.
   IMAGE: static-site
 
 jobs:
