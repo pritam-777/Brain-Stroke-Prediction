@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: brain-stroke-prediction
+  namespace: default
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: random-quotes
+  type: LoadBalancer
