@@ -1,4 +1,4 @@
-﻿#  Brain-Stoke-Prediction
+﻿#  Brain-Stroke-Prediction
 
 ### Problem Statement
 
