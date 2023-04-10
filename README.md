@@ -43,6 +43,7 @@ The high accuracy rate of the model is a testament to the power of Machine Learn
 
 Overall, the successful deployment of this ML model is an important step towards revolutionizing the way we approach medical diagnosis and treatment and underscores the tremendous potential of AI to make a positive impact on society.
 
+
 ## Demo 
 Link : http://34.93.207.1/
 
