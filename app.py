@@ -2,6 +2,7 @@ from fastapi import FastAPI, Form, Request,Depends
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
+from uvicorn import run as app_run
 import uvicorn
 import pickle
 import json
@@ -135,5 +136,14 @@ async def predict(request: Request,gender:str=Form(...),
         return  templates.TemplateResponse('index.html', context={'request': request, 'prediction_message': "Yes, you may be likely to have a stroke. Please see a doctor."})
     elif result == 0:
         return templates.TemplateResponse('index.html', context={'request': request, 'prediction_message': "No, you are not likely to have a stroke"})
+    
+
+
+
+
+    if __name__=="__main__":
+    #main()
+    # set_env_variable(env_file_path)
+        app_run(app, host="0.0.0.0", port=80)
 
     
