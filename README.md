@@ -35,6 +35,7 @@
 
 ![Alt text](Screenshot%202023-04-10%20131412.png)
 
+
 ## Overview of the ML solution 
 
 In conclusion, the deployment of the ML model for the prediction and classification task of Brain Stroke has been highly successful, achieving an impressive accuracy rate of 99%. This remarkable result has significant implications for the medical field, as it can provide a reliable tool for early detection and diagnosis of brain stroke, which is critical in saving lives and reducing the risk of severe brain damage.
