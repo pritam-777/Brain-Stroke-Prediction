@@ -15,11 +15,6 @@ spec:
       containers:
       - name: brain-stroke-prediction
         image: gcr.io/PROJECT_ID/IMAGE:TAG
-        resources:
-          limits:
-            memory: "500Mi"
-            cpu: "100m"
         imagePullPolicy: Always
         ports:
-        - name: random-quotes
           containerPort: 80

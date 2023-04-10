@@ -9,5 +9,5 @@ spec:
     protocol: TCP
     targetPort: 80
   selector:
-    app: random-quotes
+    app: brain-stroke-prediction
   type: LoadBalancer
